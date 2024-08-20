@@ -1,0 +1,16 @@
+@keyframes rainbow1 {
+    0%   {background-color: red; color: lime;}
+    16%  {background-color: orange; color: aqua;}
+    33%  {background-color: yellow; color: magenta;}
+    50%  {background-color: lime; color: red;}
+    67%  {background-color: aqua; color: orange;}
+    84%  {background-color: magenta; color: yellow;}
+    100% {background-color: red; color: lime;}
+}
+
+body {
+    animation-name: rainbow1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+}
